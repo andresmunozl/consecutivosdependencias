@@ -47608,7 +47608,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             }
             if (this.depid == 1) {
 
-                document.body.div.main.div.div.div.div.div.form.div.select.style.background = '#2fc4a6';
+                document.body.style.background = '#2fc4a6';
             }
         },
         getDocumento: function getDocumento() {
