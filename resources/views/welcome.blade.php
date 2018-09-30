@@ -81,7 +81,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Generador de consecutivos para la Universidad del Cauca
+
                 </div>
 
                 <div class="links">
@@ -91,6 +92,7 @@
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <p>Modo de uso: dirigirse a la parte de arriba a la derecha de la panatalla e ingresar en el login, luego crear una cuenta con un correo y contraseña  sencillo (no validada un correo real), luego ya estaráslogeado y aparecerá la pagina principal. si cierra sesion puede ingresar de nuevo con el correo y contraseña con las que se registro</p>
                 </div>
             </div>
         </div>

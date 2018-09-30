@@ -146,7 +146,7 @@
                 }
                 if(this.depid == 1){
 
-                    document.body.div.main.div.div.div.div.div.form.div.select.style.background = `#2fc4a6`;
+                    document.body.div.main.div.div.div.div.div.form.div.select.option.style.background = `#2fc4a6`;
                 }
             },
 
