@@ -2,10 +2,10 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
+    {{-- <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header">Último consecutivo ingresado</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -14,11 +14,13 @@
                         </div>
                     @endif
 
-                    You are logged in!
+
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
+    {{-- aqui la otra dependencia de mostrar el codigo consecutivo y el color --}}
+    {{-- <ultimoconsecutivo-component></ultimoconsecutivo-component> --}}
     {{-- tabla dependencias --}}
     <dependencia-component></dependencia-component>
 

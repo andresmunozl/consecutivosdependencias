@@ -17,6 +17,7 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 Vue.component('dependencia-component', require('./components/DependenciaComponent.vue'));
+Vue.component('ultimoconsecutivo-component', require('./components/UltimoCosecutivoComponent.vue'));
 
 const app = new Vue({
     el: '#app'

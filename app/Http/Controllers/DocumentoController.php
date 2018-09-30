@@ -14,7 +14,8 @@ class DocumentoController extends Controller
      */
     public function index()
     {
-        $documentos = Documento::with(['cargo'])->get();
+        // $documentos = Documento::with(['cargo'])->get();
+        $documentos = Documento::all();
         return response()->json(['results'=>$documentos]);
     }
 
@@ -36,7 +37,24 @@ class DocumentoController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $documento = Documento::pluck('id')->last();
+
+        $item = new Documento();
+        $cosec = $request->consecutivo;
+        $item->name= $request->name;
+        if ($documento != null) {
+            $item->consecutivo= $cosec."".($documento+1);
+        }else{
+            $item->consecutivo=1;
+        }
+
+
+
+
+
+
+        $item->save();
+        return response()->json(['results'=>'Guardado ok','error'=>null]);
     }
 
     /**

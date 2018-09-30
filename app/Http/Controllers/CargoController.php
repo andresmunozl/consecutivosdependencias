@@ -47,7 +47,10 @@ class CargoController extends Controller
      */
     public function show($id)
     {
-        //
+
+        $cargos = Cargo::where('dependencia_id',$id)->with(['dependencia'])->get();
+
+        return response()->json(['results'=>$cargos]);
     }
 
     /**

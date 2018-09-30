@@ -47,7 +47,9 @@ class EmpleadoController extends Controller
      */
     public function show($id)
     {
-        //
+        $empleados = Empleado::where('cargo_id',$id)->with(['cargo'])->get();
+
+        return response()->json(['results'=>$empleados]);
     }
 
     /**
