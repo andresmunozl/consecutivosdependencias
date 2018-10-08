@@ -1,4 +1,4 @@
-# consecutivosdependencias
+# consecutivosdependencias universo del discurso
 parcial1 ing de software3
 Facultad de Ingeniería Electrónica y Telecomunicaciones 
 Universidad del Cauca
@@ -107,3 +107,9 @@ los códigos consecutivos
 deben ser almacenados en un docu
 mento JSON y se debe 
 usar PHP como lenguaje de SSS.
+························································································································
+#instalación proyecto
+*importar el script(con esto se creará todola base de datos y unos datos de prueba)
+*el archivo .env alparecer no se subió , entonces debe pegarse en la carpeta raiz del documento despues de clonado, en nuestro caso es (C:\xampp\htdocs\consecutivosdependencias)
+*la página index esta ...\consecutivosdependencias/public (recordar tener la varible de entorno de php configurada) si no funciona ninguna manera, instalar el composer ycorrerel comando dentro de la carpeta del proyecto: php artisan serve (parasubir la pagina al localhost), copiarla url que dan y debería funcionar.
+cualquier duda o inquitud , estamos atentos.
